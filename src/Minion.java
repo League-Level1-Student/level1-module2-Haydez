@@ -1,12 +1,10 @@
 
 public class Minion {
-Minion Stuart = new Minion("Bob", 2, "yellow", "yeti");
 private String name;
 private String color;
 private String master;
 private int eyes;
 	Minion(String name, int eyes, String color, String master) {
-		System.out.println("hi");
 		this.name = name;
 		this.color = color;
 		this.master = master;
@@ -26,6 +24,14 @@ private int eyes;
 		return master;
 	}
 	void setMaster(String master) {
-		
+		this.master=master;
 	}
+	void setName(String name) {
+		this.name=name;
+	}
+	void setEyes(int eyes) {
+		  this.eyes=eyes;
+	  }
 }
+
+
